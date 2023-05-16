@@ -1,0 +1,157 @@
+
+html{
+  display: flex;
+}
+
+body {
+  max-width: 90%;
+  margin: 0 auto;
+  background: -webkit-linear-gradient(
+    -43deg,
+    rgb(222, 208, 173),
+    rgb(217, 175, 176)
+  );
+  background: linear-gradient(-43deg, rgb(221, 201, 156), rgb(227, 209, 216));
+  background-image: url(https://img.freepik.com/free-vector/spring-floral-watercolor-background-vector-green-with-leaf-illustration_53876-126350.jpg?w=1060&t=st=1684159877~exp=1684160477~hmac=dcf5cb32c2102b85f5c7f8d7d1572aa135607741fd1791cbb8a59b9160c6c0bb);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+}
+
+h1 , h2{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+blockquote {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 160%;
+  background-color: rgb(218, 233, 233);
+  border-left: 3px solid firebrick;
+  padding: 40px 0 40px 30px;
+  font-style: italic;
+}
+
+.neighbors {
+  border-left: 3px solid blue;
+}
+.farmer {
+  border-left: 3px solid greenyellow;
+}
+p {
+  font-family: Arial, sans-serif;
+  letter-spacing: 0.2px;
+  font-size: 16px;
+  color: #2a2d2c;
+  padding-left: 2%;
+}
+
+a:link {
+  color: rgb(155, 142, 42);
+}
+a:hover {
+  color: red;
+}
+a:visited {
+  color: rgb(117, 53, 59);
+}
+
+header > blockquote {
+  background-color: rgb(242, 242, 159);
+}
+
+.bad {
+  color: red;
+  text-transform: capitalize;
+}
+
+.good {
+  color: green;
+  text-transform: capitalize;
+}
+
+tr:nth-child(even) {
+  background: #ccc;
+}
+tr:nth-child(odd) {
+  background: #fff;
+}
+
+li {
+  padding: 20px;
+  list-style: decimal-leading-zero;
+  width: 60%;
+  padding-right: 5px;
+}
+
+li:nth-of-type(1) {
+  background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/bien.png?token=GHSAT0AAAAAACCMAGVC6IX3KUWFSP5MRC7AZDDSQWQ);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+li:nth-of-type(2) {
+  background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/mal.png?token=GHSAT0AAAAAACCMAGVDQJE744V65TEJF6F6ZDDSRMQ);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+li:nth-of-type(3) {
+  background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/chat.png?token=GHSAT0AAAAAACCMAGVDG342L5G6AFAARJR2ZDDSRWQ);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+
+section:nth-child(3) {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+img{
+width: 50%;
+}
+
+section:nth-child(4){
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+
+
+section:nth-child(4) img{
+  width: 100%;
+  flex-basis: 45%;
+
+}
+
+section:nth-child(4) p{
+  flex-basis: 45%;
+  padding-left: 2%;
+}
+
+section section{
+  width: 50%;
+}
+section:nth-child(6) h2{
+  font-size: 36px;
+}
+section:nth-child(6) img{
+  width: 100%;
+} 
+ section:nth-child(6) blockquote{
+  padding: 12px;
+ }
+
+
+
+ section:nth-child(6) p:nth-child(2){
+  font-weight: bold;
+ }
