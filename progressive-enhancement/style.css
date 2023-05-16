@@ -1,6 +1,6 @@
-
-html{
-  display: flex;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -16,12 +16,15 @@ body {
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: cover;
+  font-family: "Open Sans", sans-serif;
 }
 
-h1 , h2{
-  display:flex;
-  justify-content: center;
-  align-items: center;
+header{
+  margin: 5%;
+}
+
+h1{
+  margin:5%; 
 }
 
 blockquote {
@@ -79,31 +82,35 @@ tr:nth-child(odd) {
   background: #fff;
 }
 
+ul {
+  border: 2px solid #2a2d2c;
+  width: 50%;
+  margin: 3% auto;
+}
+
 li {
   padding: 20px;
   list-style: decimal-leading-zero;
-  width: 60%;
   padding-right: 5px;
 }
 
 li:nth-of-type(1) {
-  background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/bien.png?token=GHSAT0AAAAAACCMAGVC6IX3KUWFSP5MRC7AZDDSQWQ);
+  background-image: url(./media/bien.png);
   background-repeat: no-repeat;
   background-position: right;
 }
 
 li:nth-of-type(2) {
-  background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/mal.png?token=GHSAT0AAAAAACCMAGVDQJE744V65TEJF6F6ZDDSRMQ);
+  background-image: url(./media/mal.png);
   background-repeat: no-repeat;
   background-position: right;
 }
 
 li:nth-of-type(3) {
-  background-image: url(https://raw.githubusercontent.com/becodeorg/BXL-Johnson-09-main-repo/main/1.The-Field/03-Frontend-101-Progressive_enhancement/chat.png?token=GHSAT0AAAAAACCMAGVDG342L5G6AFAARJR2ZDDSRWQ);
+  background-image: url(./media/chat.png);
   background-repeat: no-repeat;
   background-position: right;
 }
-
 
 section:nth-child(3) {
   display: flex;
@@ -112,46 +119,52 @@ section:nth-child(3) {
   justify-content: flex-end;
 }
 
-img{
-width: 50%;
+img {
+  width: 50%;
 }
 
-section:nth-child(4){
+section:nth-child(4) {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: flex-end;
-
 }
 
-
-
-section:nth-child(4) img{
+section:nth-child(4) img {
   width: 100%;
   flex-basis: 45%;
-
 }
 
-section:nth-child(4) p{
+section:nth-child(4) p {
   flex-basis: 45%;
   padding-left: 2%;
 }
 
-section section{
+section section {
   width: 50%;
 }
-section:nth-child(6) h2{
+section:nth-child(5) img {
+  width: 100%;
+}
+section:nth-child(5) p:last-child {
+  font-weight: bold;
+}
+section:nth-child(6) h2 {
   font-size: 36px;
 }
-section:nth-child(6) img{
+section:nth-child(6) img {
   width: 100%;
-} 
- section:nth-child(6) blockquote{
+}
+section:nth-child(6) blockquote {
   padding: 12px;
- }
+}
 
-
-
- section:nth-child(6) p:nth-child(2){
+section:nth-child(6) p:nth-child(2) {
   font-weight: bold;
- }
+}
+
+section table {
+  width: 60%;
+  background-color: #3b83ba;
+  align-items: center;
+}
