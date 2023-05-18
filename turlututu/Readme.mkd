@@ -1,0 +1,4 @@
+* Turlututu Webpage Recreation 
+
+    This project, done as part of the BeCode curriculum, is a recreation of the Turlututu webpage. The main goal of this exercise is to practice CSS design recreation.
+
