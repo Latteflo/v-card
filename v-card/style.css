@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #2b2c48;
+  font-family: "Jost", sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1574577457058-5cefa266a7e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  animation-name: card-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.card-header {
+  position: relative;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.card-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1599422314077-f4dfdaa4cd09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #fff;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4);
+}
+
+.card-fullname,
+.card-jobtitle {
+  margin: 0;
+}
+
+.card-fullname {
+  font-size: 24px;
+  font-weight: 500;
+  color: #2b2c48;
+}
+
+.card-jobtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: #8488b9;
+  margin-bottom: 20px;
+}
+
+.card-main {
+  padding: 20px;
+}
+
+.card-content {
+  margin-bottom: 20px;
+}
+
+.card-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2b2c48;
+  margin-bottom: 5px;
+}
+
+.card-desc {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8488b9;
+  margin: 0;
+}
+
+.card-social {
+  display: flex;
+  justify-content: center;
+}
+
+.card-social a {
+  margin: 0 10px;
+}
+
+.card-social a img {
+  width: 24px;
+  height: 24px;
+}
+
+.card-socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ddd;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    background-color: #333;
+  }
+  
+
+@keyframes card-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
