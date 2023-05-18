@@ -32,6 +32,16 @@ body {
   animation-fill-mode: forwards;
 }
 
+card::after{
+width: 800px;
+background: rgba(38, 35, 35, 0.47);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.8px);
+-webkit-backdrop-filter: blur(7.8px);
+border: 1px solid rgba(38, 35, 35, 0.36);
+}
+
 .card-header {
   position: relative;
   height: 220px;
@@ -47,10 +57,6 @@ body {
   left: 0;
   right: 0;
   height: 100%;
-  background-image: url(https://images.unsplash.com/photo-1599422314077-f4dfdaa4cd09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .card-avatar {
@@ -96,6 +102,7 @@ body {
 }
 
 .card-desc {
+  text-indent: 10px;
   font-size: 14px;
   font-weight: 400;
   color: #8488b9;
@@ -130,7 +137,7 @@ body {
     line-height: 40px;
     background-color: #ddd;
     border-radius: 50%;
-    color: #fff;
+    color: #3e1a1a;
     text-align: center;
     font-size: 18px;
     text-decoration: none;
@@ -138,7 +145,8 @@ body {
   }
   
   .social-icon:hover {
-    background-color: #333;
+    background-color: #571c1c;
+    color: #ddd;
   }
   
 
