@@ -12,4 +12,4 @@ This is a small web project consisting of HTML and CSS, created as a task for th
 
 Preview:
 
-![card](https://github.com/Latteflo/v-card/assets/92720989/c094601a-1a14-4273-83d8-0094efbe9988)
+![card]()
