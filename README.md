@@ -12,4 +12,5 @@ This is a small web project consisting of HTML and CSS, created as a task for th
 
 Preview:
 
-![card]()
+
+![Screenshot](Personal%20V-Card.png)
