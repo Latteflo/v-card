@@ -99,6 +99,12 @@ body {
   margin: 0;
 }
 
+.card-socials-links{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
 .card-social {
   display: flex;
   justify-content: center;
@@ -115,9 +121,9 @@ body {
 
 .card-socials {
   display: flex;
+  margin: 1%;
+  padding: 1%;
   justify-content: center;
-  gap: 15px;
-  margin: 10px;
   flex-wrap: wrap;
 }
 
@@ -150,8 +156,8 @@ body {
 }
 
 .card-link {
-  margin: 0 5px;
-  padding: 12px 45px;
+  margin: 1%;
+  padding: 4% 14%;
   background-color: #2b2c48;
   color:#fff;
   border-radius: 5px;
