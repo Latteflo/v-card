@@ -1,0 +1,16 @@
+{
+  "name": "my-project",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "full-icu": "^1.5.0",
+    "luxon": "^3.3.0"
+  }
+}

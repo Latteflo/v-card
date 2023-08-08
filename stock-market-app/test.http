@@ -1,0 +1,57 @@
+### Get All Stocks
+GET http://localhost:3000/api/stocks
+
+### Create Stock
+POST http://localhost:3000/api/stocks
+Content-Type: application/json
+
+{
+  "symbol": "AAPL",
+  "name": "Apple Inc.",
+  "price": 132.05
+}
+
+### Get Specific Stock by Symbol
+GET http://localhost:3000/api/stocks/AAPL
+
+### Update Stock by ID
+PUT http://localhost:3000/api/stocks/64d20003e7166b3d74e0d76f
+Content-Type: application/json
+
+{
+  "price": 150
+}
+
+### Delete Stock by ID
+DELETE http://localhost:3000/api/stocks/64d20003e7166b3d74e0d76f
+
+### Get Company by Name
+GET http://localhost:3000/api/companies/Apple Inc.
+
+### Get All Companies
+GET http://localhost:3000/api/companies
+
+### Create Company
+POST http://localhost:3000/api/companies
+Content-Type: application/json
+
+{
+  "name": "Apple Inc.",
+  "industry": "Technology",
+  "description": "Tech giant"
+}
+
+### Update Company by ID
+PUT http://localhost:3000/api/companies/64d1ffe1e7166b3d74e0d769
+Content-Type: application/json
+
+{
+  "name": "Apple Inc.",
+  "industry": "Technology"
+}
+
+### Delete Company by ID
+DELETE http://localhost:3000/api/companies/64d1ffe1e7166b3d74e0d769
+
+### Get Home Page
+GET http://localhost:3000/api
